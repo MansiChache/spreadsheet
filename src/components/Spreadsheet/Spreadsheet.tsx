@@ -137,7 +137,9 @@ export default function Spreadsheet() {
         size: 40,
       },
     ];
-  }, [data, extraCols, focusedCell, handleFocus]);
+  }, [data, extraCols, focusedCell, handleFocus, editableKeys
+
+]);
 
   const table = useReactTable({
     data,
